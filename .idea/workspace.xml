@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3846c5c6-a6a6-4296-bffc-a952a30b0db7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VZCcAcqpVLK9uJi6RDeZyzXjAv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn install" />
+      <command value="mvn clean install" />
+      <command value="mvn deploy" />
+      <command value="mvn test" />
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Demo1AlmehdiBayoudh4twin7Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="demo1_almehdi_bayoudh_4twin7" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.demo1_almehdi_bayoudh_4twin7.Demo1AlmehdiBayoudh4twin7Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Demo1AlmehdiBayoudh4twin7Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3846c5c6-a6a6-4296-bffc-a952a30b0db7" name="Default Changelist" comment="" />
+      <created>1695034291840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695034291840</updated>
+      <workItem from="1695034293376" duration="2488000" />
+      <workItem from="1695214473964" duration="2670000" />
+      <workItem from="1695486383197" duration="604000" />
+      <workItem from="1695629940651" duration="8446000" />
+      <workItem from="1696101781643" duration="4446000" />
+      <workItem from="1696235330139" duration="6074000" />
+      <workItem from="1696319883469" duration="1000" />
+      <workItem from="1696343425203" duration="3000" />
+      <workItem from="1696343636324" duration="13000" />
+      <workItem from="1696344025538" duration="11000" />
+      <workItem from="1696788232586" duration="3821000" />
+      <workItem from="1696798952957" duration="2939000" />
+      <workItem from="1696848378421" duration="1078000" />
+      <workItem from="1696942669341" duration="2000" />
+      <workItem from="1697448555852" duration="4166000" />
+      <workItem from="1697546453392" duration="407000" />
+      <workItem from="1697886103359" duration="5157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo1_almehdi_bayoudh_4twin7$Demo1AlmehdiBayoudh4twin7Application.ic" NAME="Demo1AlmehdiBayoudh4twin7Application Coverage Results" MODIFIED="1695215295645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
