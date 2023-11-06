@@ -36,5 +36,15 @@ public class BlocRestControler {
         return blocsevice.updateBloc(b);
 
     }
+    @PutMapping("affecteChambre/{nom}")
+    public Bloc affecterChambreBloc(@RequestBody List<Long>numChambre,@PathVariable String nom)
+    {
+        return blocsevice.affecterChambresABloc(numChambre,nom);
+    }
+    @PutMapping("affecterBlocAFoyer/{nomBloc}/{nomFoyer}")
+    public Bloc affecterBlocAFoyer(@PathVariable  String nomBloc, @PathVariable String nomFoyer)
+    {
+        return blocsevice.affecterBlocAFoyer(nomBloc,nomFoyer);
+    }
 
 }

@@ -34,4 +34,16 @@ public class UniversiteRestControler {
         return iUniversiteservice.update(u);
 
     }
+    @PutMapping("affecteruniv/{idfoyer}/{nom}")
+    public universite AffecterUnivAFoyer(@PathVariable long idfoyer, @PathVariable String nom )
+    {
+        return iUniversiteservice.affecterFoyerAUniversite(idfoyer,nom);
+    }
+    @PutMapping("deaffecteruniv/{idfoyer}/{idUniversite}")
+    public universite DeaffecterUnivAFoyer(@PathVariable long idfoyer, @PathVariable long idUniversite )
+    {
+        return iUniversiteservice.desaffecterFoyerAUniversite(idfoyer,idUniversite);
+    }
+
+
 }

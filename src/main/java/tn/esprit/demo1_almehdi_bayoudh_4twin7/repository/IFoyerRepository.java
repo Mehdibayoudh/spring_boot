@@ -9,4 +9,5 @@ import java.util.List;
 
 public interface IFoyerRepository extends CrudRepository<foyer,Long> {
 
+    foyer findByNomfoyer(String nomFoyer);
 }

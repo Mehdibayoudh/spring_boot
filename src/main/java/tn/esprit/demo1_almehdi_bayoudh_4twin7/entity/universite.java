@@ -13,6 +13,7 @@ public class universite  implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long iduniversite;
+    @Column(unique = true)
     private String nomuniversite;
     private String  adress;
     @OneToOne

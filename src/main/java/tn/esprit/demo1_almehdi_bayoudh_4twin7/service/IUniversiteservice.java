@@ -11,4 +11,8 @@ public interface IUniversiteservice {
     void supprimeruniversite(long iduniversite);
     universite getuniversite(long iduniversite);
     List<universite> getalluniversite();
+    universite findbyNomuniv(String nom);
+
+       universite affecterFoyerAUniversite(long idFoyer, String nomUniversite);
+    universite desaffecterFoyerAUniversite(long idFoyer, long idUniversite) ;
 }
