@@ -10,4 +10,5 @@ public interface iFoyerservice {
     void supprimerfoyer(long idfoyer);
     foyer getfoyer(long idfoyer);
     List<foyer> getallfoyer();
+    foyer ajouterFoyerEtAffecterAUniversite (foyer foyer, long idUniversite) ;
 }

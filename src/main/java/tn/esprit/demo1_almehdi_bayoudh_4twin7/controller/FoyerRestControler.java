@@ -15,6 +15,11 @@ import java.util.List;
 @RequiredArgsConstructor
 public class FoyerRestControler {
     private final iFoyerservice iFoyerservice;
+    @GetMapping("afficheliste/{id}")
+    public foyer getfoyer(@PathVariable long id)
+    {
+       return iFoyerservice.getfoyer(id);
+    }
     @GetMapping("affiche")
     public List<foyer> flist(){
         return iFoyerservice.getallfoyer();

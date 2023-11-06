@@ -34,6 +34,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -53,6 +56,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Demo1AlmehdiBayoudh4twin7Application">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -97,6 +113,16 @@
       <workItem from="1697886103359" duration="5157000" />
       <workItem from="1697970013452" duration="595000" />
       <workItem from="1698345640290" duration="6177000" />
+      <workItem from="1698352319095" duration="625000" />
+      <workItem from="1698483735979" duration="14000" />
+      <workItem from="1698612009159" duration="412000" />
+      <workItem from="1698654252760" duration="1341000" />
+      <workItem from="1698947063883" duration="2223000" />
+      <workItem from="1699006458561" duration="3000" />
+      <workItem from="1699008615337" duration="7000" />
+      <workItem from="1699185565408" duration="5299000" />
+      <workItem from="1699258337896" duration="9204000" />
+      <workItem from="1699305033417" duration="2731000" />
     </task>
     <servers />
   </component>

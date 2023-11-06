@@ -11,4 +11,8 @@ public interface IBlocsevice {
     void supprimerBloc(Long idblock);
     Bloc getBloc(Long idblock);
     List<Bloc> getallBloc();
+     Bloc affecterChambresABloc(List<Long> numChambre, String nomBloc) ;
+     Bloc affecterBlocAFoyer( String nomBloc, String nomFoyer);
+
+
 }
