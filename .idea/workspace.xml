@@ -56,19 +56,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Demo1AlmehdiBayoudh4twin7Application">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -122,7 +109,10 @@
       <workItem from="1699008615337" duration="7000" />
       <workItem from="1699185565408" duration="5299000" />
       <workItem from="1699258337896" duration="9204000" />
-      <workItem from="1699305033417" duration="2731000" />
+      <workItem from="1699305033417" duration="4269000" />
+      <workItem from="1699470435325" duration="1929000" />
+      <workItem from="1699605275566" duration="4000" />
+      <workItem from="1699996319069" duration="944000" />
     </task>
     <servers />
   </component>

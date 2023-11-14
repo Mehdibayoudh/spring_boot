@@ -3,16 +3,14 @@ package tn.esprit.demo1_almehdi_bayoudh_4twin7.service;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import tn.esprit.demo1_almehdi_bayoudh_4twin7.entity.chambre;
-import tn.esprit.demo1_almehdi_bayoudh_4twin7.entity.reservation;
-import tn.esprit.demo1_almehdi_bayoudh_4twin7.entity.etudiant;
-import tn.esprit.demo1_almehdi_bayoudh_4twin7.entity.universite;
+import tn.esprit.demo1_almehdi_bayoudh_4twin7.entity.*;
 import tn.esprit.demo1_almehdi_bayoudh_4twin7.repository.IChambreRepo;
 import tn.esprit.demo1_almehdi_bayoudh_4twin7.repository.IEtudiantRepo;
 import tn.esprit.demo1_almehdi_bayoudh_4twin7.repository.IReservationRepo;
 
 import java.time.LocalDate;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
 @AllArgsConstructor
 @Service
@@ -82,8 +80,60 @@ public class Reservationserviceimpl implements IReservationservice{
         etudiant e=  etudiantRepository.findById(cinEtudiant).orElse(null);
          String nomBlc = e.getNomet();
          r.setNumReservation(numchamber+nomBlc+cinEtudiant);
+        int ce=c.getReservation().size();
+        if(r.getEtudiant()==null){
+            r.setEtudiant(new HashSet<>());
+        }
+        if(c.getReservation()==null){
+            c.setReservation(new HashSet<>());
+        }
+        if(c.getTypeChambre()== TypeChambre.Simple && ce<1 ){
+            r=reservationRepo.save(r);
+            c.getReservation().add(r);
+            r.getEtudiant().add(e);
 
+            chambreRepository.save(c);
+            return r;
+
+        }
+
+        if(c.getTypeChambre()==TypeChambre.Double && ce<2 ){
+            r=reservationRepo.save(r);
+            c.getReservation().add(r);
+            r.getEtudiant().add(e);
+
+            chambreRepository.save(c);
+            return r;
+
+
+        }
+        if(c.getTypeChambre()==TypeChambre.Triple && ce<3 ){
+            r=reservationRepo.save(r);
+            c.getReservation().add(r);
+            r.getEtudiant().add(e);
+
+            chambreRepository.save(c);
+            return r;
+
+        }
         return r;
+    }
+
+    @Transactional
+    @Override
+    public reservation annulerReservation(long cinEtudiant) {
+        etudiant e =etudiantRepository.findEtudiantByCin(cinEtudiant);
+        List<reservation> r = reservationRepo.findByEtudiant(e);
+        for(reservation re:r) {
+            chambre ch = chambreRepository.findchambreBy(re);
+            ch.getReservation().remove(re);
+            re.getEtudiant().remove(e);
+            re.setEstValide(false);
+            reservationRepo.save(re);
+        }
+
+
+        return null;
     }
 
 
